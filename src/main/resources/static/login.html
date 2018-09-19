@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>SSD</title>
+    
+     <!--Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script type="text/javascript" src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+</head>
+
+<body>
+  	<div class="container">
+  		<div class="row">
+  			<div class="col-md-12 col-sm-12 col-xs-12">
+  				<h2 class="text-center"><b>Double Submit Cookies Pattern</b></h2>
+  				<form action="/userCreds" method="POST" modelAttribute="User">
+	  				<div class="form-group">
+				    	<label for="userName">User Name</label>
+					    <input type="text" class="form-control" name="userName" id="userName" placeholder="User name">
+					</div>
+					<div class="form-group">
+					    <label for="userPassword">Password</label>
+					    <input type="password" class="form-control" name="userPwd" id="userPassword" placeholder="Password">
+				  	</div>
+				  	<button type="submit" class="btn btn-default">Submit</button>
+				</form>
+  			</div>
+  		</div>
+	</div>	 
+
+</body>
+</html>
