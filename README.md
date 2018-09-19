@@ -10,7 +10,7 @@ This project was develop to demonstrate the Double Submit Cookie pattern in cros
    5. To run the project type "java -jar target\demo1-0.0.1-SNAPSHOT.jar".
    6. Open the application using "http://localhost:8080/".
 
-###Sample Credentials
+### Sample Credentials
 
 User Name : admin
 
