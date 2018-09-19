@@ -80,7 +80,7 @@ public class MainController {
 	
 		//check session cookie and csrf cookie and display status
 		if (res_c1.equals(cookieStore.get("ssId")) && cModel.getCsrfToken().equals(res_csrf)) {
-			return ResponseEntity.status(HttpStatus.OK).body("Tranaction Success !!");
+			return ResponseEntity.status(HttpStatus.OK).body("Transaction Success !!");
 		} else {
 			return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("error");
 		}
